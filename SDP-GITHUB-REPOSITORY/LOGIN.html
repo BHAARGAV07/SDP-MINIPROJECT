@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        #username{
+            font-size: 20px;
+            font-family: 'Times New Roman';
+            padding: 8px;
+            margin: 8px;
+            background-color: #333;
+            border-radius: 4px;
+            color: white;
+        }
+        #password,#login{
+            font-size: 20px;
+            color:white;
+            font-family: 'Times New Roman';
+            padding: 8px;
+            margin: 8px;
+            background-color: #333;
+            border-radius: 4px;
+            font-size: 20px;
+            font-family: 'Times New Roman';
+            color: white;
+            padding-top: 10px;
+        }
+        #login{
+            cursor: pointer;
+            width: 100px;
+            background-color: #333;
+        }
+        .registration-form{
+            position: relative;
+            left: 470px;
+            border-radius: 10px;
+            margin-top: 90px;
+            align-items: center;
+            padding-left: 50px;
+            padding-top: 5px;
+            background-color: black;
+            width: 430px;
+            height: 600px;
+        }
+        #name{
+            color: white;
+        }
+        #pwd{
+            color:white;
+        }
+        #add{
+            color:white;
+        }
+        #Mp{
+            color: white;
+        }
+        #st{
+            color: white;
+        }
+        #togglePassword{
+            color: white;
+        }
+        #gg,#ff,#aa{
+            color:white;
+        }
+        #g{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: #333;
+            padding: 8px;
+            width: 200px;
+            cursor: pointer;
+        }
+        #f{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: #333;
+            padding: 8px;
+            width: 200px;
+            cursor: pointer;
+        }
+        #a{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: #333;
+            padding: 8px;
+            width: 200px;
+            cursor: pointer;
+        }
+        p1{
+            color: white;
+
+        }
+        p1:hover{
+            color: yellow;
+        }
+        #login:hover{
+            color: yellow;
+        }
+        .login-container a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="registration-form">
+        <div class="form-group">
+            <p>Username</p><label for="username"><i class="fas fa-user" id="name"></i></label>
+            <input type="text" id="username" name="username" placeholder="Enter your name..." required><br><br>
+        </div>
+        <div class="password-container">
+            <p>Password</p>&nbsp;<i class="fa-solid fa-lock" id="pwd"></i>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <i class="fas fa-eye" id="togglePassword" style="cursor: pointer;"></i><br><br>
+        </div>
+        <div class="login-container">
+            <a href="COFFEE.html"><div type="submit" id="login" ><b>LOGIN</b></div></a>
+        </div>
+        <div id="st">
+            <p style="padding-left: 50px;">Sign Up With</p><br>
+            <i class="fab fa-google" id="gg"></i>
+            <button id="g"><p1>Sign with Google</p1></button><br><br>
+            <i class="fab fa-facebook" id="ff"></i>
+            <button id="f"><p1>Sign with Facebook</p1></button><br><br>
+            <i class="fab fa-apple" id="aa"></i>
+            <button id="a"><p1>Sign with apple</p1></button>
+
+        </div>
+        </div>
+    </form>
+</body>
+</html>
