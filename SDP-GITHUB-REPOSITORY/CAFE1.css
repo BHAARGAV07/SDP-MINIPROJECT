@@ -187,7 +187,7 @@ button{
     display: flex;
     background-color: #FF5349;
 }
-p{
+p3{
     font-size: var(--font-size-l);
     float: left;
     padding-left: 10px;
@@ -219,4 +219,12 @@ p2{
     cursor: pointer;
     font-size: 20px;
     padding-left: 20px;
+}
+p{
+    background-color: #f3961c;
+    width: 100%;
+    font-size: var(--font-size-l);
+}
+.contact{
+    width: 100%px;
 }
